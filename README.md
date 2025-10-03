@@ -28,14 +28,17 @@ https://www.asterdex.com/en/referral/F40b58
 
 ENV ที่ต้องมี: ASTERDEX_API_KEY, ASTERDEX_API_SECRET  
 
-
+ใส่ใน .env 
 ASTERDEX_API_KEY=change to your key
 ASTERDEX_API_SECRET=change to your secret
 
 
 Easy run with python3
-1. create .env
-
+1. create .env โดย ทำตามนี้ ก็ได้
+   
+   mkdir aster
+   cd aster
+   vi .env 
    set -a
    source .env
    set +a
