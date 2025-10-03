@@ -48,7 +48,7 @@ Easy run with python3
 
    set +a
 
-3. backgound running 
+3. backgound running  **** แก้ทุนตามที่ตัวเองจะ run นะครับ เริ่มน้อยๆ พอไม่มีปัญหา ก็แล้วแต่เลยครับ ในนี้ใส่ให้เป็น 120$ และ ปิดทุกๆ กำไร 1$ หรือ ใกล้เคียง 
 
 nohup python3 aster-maker15.py --symbol ASTERUSDT --asset ASTER --capital 120 --target-profit 1 --maker-spot-bps 0 --maker-fut-bps 0 --taker-spot-bps 5 --taker-fut-bps 5 --slippage-bps 3 --depth-limit 10 --isolated --leverage 4 --poll 3 --cooldown-sec 2 --log-level INFO > maker15.log 2>&1 &
 
